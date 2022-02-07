@@ -1,4 +1,21 @@
 div {
-  color: blue;
+  color: ghostwhite;
   text-align: center;
+}
+h1 {
+  display: flexbox;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+body {
+  background: url(/Users/zohan/Desktop/food.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flexbox;
+}
+button {
 }
