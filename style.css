@@ -1,82 +1,14 @@
-/* Global styles */
-
 body {
+	background-color:green;
+	background-size: cover;
+	background-position: center;
 	font-family: Arial, sans-serif;
+	opacity: 20;
 }
-
-/* Header styles */
-
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-}
-
-header h1 {
-	margin: 0;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-/* Main content styles */
-
-main {
-	padding: 20px;
-}
-
-section {
-	margin-bottom: 40px;
-}
-
-section h2 {
-	margin-top: 0;
-}
-
-.car-card {
-	background-color: #eee;
-	padding: 20px;
-	margin-bottom: 20px;
-}
-
-.car-card img {
-	float: left;
-	margin-right: 20px;
-}
-
-.car-card h3 {
-	margin-top: 0;
-}
-
-.car-card p {
-	margin-bottom: 10px;
-}
-
-.car-card a {
-	display: block;
-	margin-top: 10px;
-	font-weight: bold;
-}
-
-/* Footer styles */
-
-footer {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
+h1{color: aqua;font-size: xx-large;font-family: 'Times New Roman', Times, serif;align-items: center;}
+h2{color: blue;}
+h3{color:blue}
+/* Rest of the CSS code */
+button{
+	color: rgb(241, 6, 77);
 }
