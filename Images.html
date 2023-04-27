@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+		img{
+			width: 200px;
+			height: auto;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Car Detailing Website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to Car Detailing</h1>
+		<nav>
+			<ul>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+    
+		<section id="services">
+			<h2>Our Services</h2>
+			<div class="services-container">
+				<div class="service">
+					<img src="image.jpg" alt="Exterior Wash">
+					<h3>Exterior Wash</h3>
+					<p>Our exterior wash includes a thorough wash and dry of the exterior of your vehicle, including wheels and tires. We use a high-quality car shampoo to ensure your car is spotless.</p>
+					<button class="btn">Book Now</button>
+				</div>
+				<div class="service">
+					<img src="inside.jpg" alt="Interior Detailing">
+					<h3>Interior Detailing</h3>
+					<p>Our interior detailing service includes a deep cleaning of your car's interior. We clean carpets, seats, and all hard surfaces. We also provide an air freshener to leave your car smelling like new.</p>
+					<button class="btn">Book Now</button>
+				</div>
+				<div class="service">
+					<img src="outside.jpg" alt="Waxing and Polishing">
+					<h3>Waxing and Polishing</h3>
+					<p>Our waxing and polishing service includes a thorough wash and dry of the exterior of your vehicle, followed by an application of high-quality wax to protect your car's finish. We then polish your car to a high shine.</p>
+					<button class="btn">Book Now</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a team of car enthusiasts who specialize in car detailing. With years of experience, we provide the best quality service to our customers. We use only the best products and tools to make sure your car looks like new again.</p>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form id="contact-form" action="submit-form.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+				<br>
+				<button type="submit" class="btn">Send</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 202
+

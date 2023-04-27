@@ -1,15 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Search</title>
-    <link rel="stylesheet" href="style.css">
-  </head> 
-  <body>
-    <form action="https://www.google.com/search">
-      <input type="TEXT" name="q">
-      <input type="submit" value="Google Search">
-      <div>"hello"</div>
+<html>
+<head>
+	<title>Car Detailing Services</title>
+  <a href=Images.html</a>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #f2f2f2;
+			overflow: hidden;
+		}
+
+		nav a {
+			float: left;
+			display: block;
+			color: #333;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		nav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+		section {
+			margin: 20px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			min-height: 400px;
+		}
+
+		footer {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		.column {
+			float: left;
+			width: 33.33%;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Car Detailing Services</h1>
+	</header>
+
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">Services</a>
+		<a href="#">About Us</a>
+		<a href="#">Gallery</a>
+		<a href="#">Contact</a>
+	</nav>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>For more information or to schedule an appointment, please call us at <a href="tel:4380930">4380930</a> or fill out the form below:</p>
+    <form>
+      <!-- form fields go here -->
     </form>
-  </body>
-</html>
+  </section>
   
+	<section>
+		<h2>Welcome to Our Car Detailing Services!</h2>
+		<p>We provide high-quality car detailing services to keep your car looking its best. Our team of experienced professionals uses only the best products and techniques to ensure that your car gets the care it deserves.</p>
+		<p>Choose from our range of packages and services to find the one that best suits your needs. From basic exterior washes to full interior and exterior detailing, we've got you covered.</p>
+		<p>Contact us today to book an appointment or learn more about our services!</p>
+	</section>
+
+	<section>
+		<h2>Our Services</h2>
+		<div class="row">
+			<div class="column">
+				<h3>Basic Package</h3>
+				<p>Includes exterior wash, tire shine, and window cleaning.</p>
+				<p>Starting at $50</p>
+			</div>
+
+			<div class="column">
+				<h3>Interior Package</h3>
+				<p>Includes full interior cleaning and detailing.</p>
+				<p>Starting at $100</p>
+			</div>
+
+			<div class="column">
+				<h3>Full Detailing Package</h3>
+				<p>Includes full interior and exterior cleaning and detailing.</p>
+				<p>Starting at $200</p>
+			</div>
+		</div>
+	</section>
+	<section>
+	
